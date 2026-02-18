@@ -9,11 +9,13 @@ int main() {
     //B = CURITIBA
     //C = SAO PAULO
 
-    char auxiliar_1[15];
-    strcpy(auxiliar_1, A);
+    char cidadeAuxiliar[15];
+
+    strcpy(cidadeAuxiliar, A);
     strcpy(A, C);
     strcpy(C, B);
-    strcpy(B, auxiliar_1);
+    strcpy(B, cidadeAuxiliar);
+    
     printf("%s \n", A);
     printf("%s \n", B);
     printf("%s \n", C);

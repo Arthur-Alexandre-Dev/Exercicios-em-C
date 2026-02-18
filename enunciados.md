@@ -18,9 +18,9 @@ Faça um programa em C que leia (via scanf) o preço (float) e o código de orig
 
 > 1 e < 5: Norte
 
-> 4 e < 10: Sudeste
+> 4 e < 9: Sudeste
 
-> 9 e < 14: Nordeste
+> 10 e < 14: Nordeste
 
 >= 14: Outra Região
 

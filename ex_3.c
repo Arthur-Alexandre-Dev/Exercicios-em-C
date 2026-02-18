@@ -18,16 +18,16 @@ int main () {
         while(getchar() != '\n');
     }
 
-    if (codigo >= 1 && codigo <= 5) {
+    if (codigo >= 1 && codigo <= 4) {
         printf("O produto e do Norte\n");
     }
-    if (codigo >= 4 && codigo <= 10) {
+    else if (codigo >= 5 && codigo <= 9) {
         printf("O produto e do Sudeste\n");
     }
-    if (codigo >= 9 && codigo <= 14) {
+    else if (codigo >= 10 && codigo <= 14) {
         printf("O produto e do Nordeste\n");
     }
-    if (codigo >= 14) {
+    else if (codigo >= 14) {
         printf("O produto e de Outra Regiao\n");
     }
     else {
